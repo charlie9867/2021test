@@ -1,0 +1,8 @@
+flask
+flask_sqlalchemy
+sqlalchemy
+flask_restful
+flask_cors
+flask_marshmallow
+configparser
+flasgger

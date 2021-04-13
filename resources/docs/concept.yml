@@ -1,0 +1,20 @@
+summary: concept 정보 조회
+parameters:
+ - in: path
+   name: concept_name
+   type: string
+   required: true
+   description: 검색 값 (ex) jack
+ - in: query
+   name: start
+   required: false
+   description: page 시작 값
+   type: integer
+ - in: query
+   name: limit
+   required: false
+   description: page 표시 개수
+   type: integer
+responses:
+ 200:
+   description: ok

@@ -1,0 +1,25 @@
+summary: 방문 정보 조회
+parameters:
+ - in: path
+   name: type
+   type: string
+   required: true
+   description: 검색 항목(person_id, visit_occurrence_id, concpet_name)
+ - in: path
+   name: value
+   type: string
+   required: true
+   description: 검색 값(concpet_name=키워드 검색 가능(ex)Visit)
+ - in: query
+   name: start
+   required: false
+   description: page 시작 값
+   type: integer
+ - in: query
+   name: limit
+   required: false
+   description: page 표시 개수
+   type: integer
+responses:
+ 200:
+   description: ok

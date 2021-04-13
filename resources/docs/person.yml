@@ -1,0 +1,4 @@
+summary: person 정보 조회
+responses:
+ 200:
+   description: ok
